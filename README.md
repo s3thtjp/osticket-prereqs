@@ -73,31 +73,81 @@ Then install the rewrite_amd64_en-US file found in osTicket-installation-files.
 <br />
 
 <p>
-<img src="https://i.imgur.com/UBfQLNI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/LAq8hVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine (make sure image is set to Windows 10). Wait for the virtual machine to finish setting up. Once complete, click on the virtual machine with Windows 10 link and copy down your public ip address as you will be needing it for the next step with logging into the virtual machine using remote desktop connection. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/UBfQLNI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-</p>
-<p>
-Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine (make sure image is set to Windows 10). Wait for the virtual machine to finish setting up. Once complete, click on the virtual machine with Windows 10 link and copy down your public ip address as you will be needing it for the next step with logging into the virtual machine using remote desktop connection. 
+Now create a new folder in the C: directory called PHP. From the osTicket-installation-files extract php-7.3.8-nts-Win32-VC15-x86 to the new folder that you created by selecting browse and finding the directory to PHP on the C:.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/UBfQLNI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pNMApim.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine (make sure image is set to Windows 10). Wait for the virtual machine to finish setting up. Once complete, click on the virtual machine with Windows 10 link and copy down your public ip address as you will be needing it for the next step with logging into the virtual machine using remote desktop connection. 
+Now open the VC_redist.x86 and install the redistributable.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
 </p>
 <br />
