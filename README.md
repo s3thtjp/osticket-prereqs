@@ -21,7 +21,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Sign up for a free Azure account
 - Set up your virtual machine with Windows 10
 - Connect to your virtual machine using Remote Desktop Connection
-- Download files to set up osTicket
+- Download files to set up osTicket on virtual machine
 - Install osTicket
 
 <h2>Installation Steps</h2>
@@ -32,7 +32,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine. *make sure image is set to Windows 10*
 </p>
 <br />
 
