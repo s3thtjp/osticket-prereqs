@@ -103,42 +103,43 @@ Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select 
 <br />
 
 <p>
-<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yZSj1mp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-
-</p>
-<p>
-Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+Click in the search box by the start button and look for iss and right click on the Internet Information Services Manager and run as administrator. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/QrQ0U2j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+Click on the PHP Manager then click on register new PHP version and point the manager to the php-cgi.exe that was extracted in the PHP directory on the C: drive.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0VsVSvW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+Next we are going to stop and start the IIS by right clicking on the virtual machine name on the top left and dragging down to stop. After a few seconds we are going to right click on the same virtual machine name and start.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/p4NFS76.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” and copy the “upload” folder into “c:\inetpub\wwwroot”
+Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 </p>
 <br />
 
