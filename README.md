@@ -32,15 +32,15 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine. *make sure image is set to Windows 10*
+Create your virtual machine through the Azure portal by selecting virtual machines link and selecting create azure virtual machine (make sure image is set to Windows 10). Wait for the virtual machine to finish setting up. Once complete, click on the virtual machine with Windows 10 link and copy down your public ip address as you will be needing it for the next step with logging into the virtual machine using remote desktop connection. 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/copLjni.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Connect to the virtual machine using Windows 10 through remote desktop connection. After logged onto the virtual machine open up the microsoft edge to download the necessary files to set up osTicket. https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 </p>
 <br />
 
