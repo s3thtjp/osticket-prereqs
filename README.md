@@ -144,11 +144,103 @@ Within “c:\inetpub\wwwroot”, Rename “upload” to “osTicket”
 <br />
 
 <p>
-<img src="https://i.imgur.com/SqcwgVC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/0VsVSvW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 </p>
 <p>
-Install mysql-5.5.62-win32 from the osTicket-installation-files. You can select typical setup. Select to launch after install. When it launches select standard configuration. Under modify security settings for the password choose root. Select next then execute. 
+Next we are going to stop and start the IIS like we did a couple steps ago.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/rM6NAOx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Now we are going to go to the "osTicket" directory within ISS by expanding the drop down of "Sites" then again with "Default Web Site" and clicking on the "osTicket" folder. On the right side column under "Manage Folder" we are going to then click on "Browse *.80 http" 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/fsr8B3T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to enable the following extensions in the PHP Manager: php_imap.dll, php_intl.dll and php_opcache.dl. In the ISS double click on PHP Manager. At the bottom select "Enable or disable an extension" and look for the files and right click then select enable to enable the extensions. Refresh your browser and it should have the new extensions enabled.
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/8q1qDbO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to Rename: ost-config.php. From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/ERGz8AD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Now we are going to set up permissions for this file to everyone. Right click on ost-config.php and click on properties. In the new window select the "Security" tab on the top then click on the "Advanced" button. Click on the "Disable Inheritance" button and remove all current permissions. Next click on the "Add" button and "Select a principal" at the top in the field under "Enter the object name to select" type everyone then click on check names and select the "Everyone" object then click "OK" Add Everyone to have full access permissions to this file.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/5JE3Jj9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to click on "Continue" in the web browser with osTicket Installer and fill in the appropriate fields stopping at the database settings section. The emails do not have to be your actual emails. Then we are going to install HeidiSQL_12.3.0.6589_Setup from the osTicket-Installation-Files folder. Make sure the box is checked to launch after installation. When it opens click on skip.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/e0NkUBm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to click on "New" in the bottom left and input the password root into the field on the right. When completed it should connect to the backend database that we installed previously.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/3TwlQ5u.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to create a new database by right clicking on "Unamed" dragging down to "Create New" and clicking on database. We are going to name it "osTicket" then click "OK". A new database should now be entered into the left field of HeidiSQL. 
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/sokIA8F.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to fill in the remaining fields of the osTicket Installation within the browser. Under MySQL Database we are going to enter "osTicket". Under MySQL Username we are going to put "root" and under MySQL Password we going to enter "root".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/Y8VVdZD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
+</p>
+<p>
+Next we are going to click on "Install" and it will finish installing osTicket.
 </p>
 <br />
