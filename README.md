@@ -40,7 +40,7 @@ Create your virtual machine through the Azure portal by selecting virtual machin
 <img src="https://i.imgur.com/copLjni.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Connect to the virtual machine using Windows 10 through remote desktop connection. After logged onto the virtual machine open up the microsoft edge to download the necessary files to set up osTicket. https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
+Connect to the virtual machine using Windows 10 through remote desktop connection. After logged onto the virtual machine open up the microsoft edge to download the necessary <a href"https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD">files</a> to set up osTicket. 
 </p>
 <br />
 
